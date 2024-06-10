@@ -3,7 +3,8 @@ Student Number: ST10459382
 Repository link: https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382.git
 
                                                                                     WELCOME TO MY WEATHER APP READ.ME FILE 
-                                                                           ![Screenshot_20240610_123946](https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/5f7c84ae-7acc-46b6-8f4e-6affd4191235)
+                                                                        ![Screenshot_20240610_123946](https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/a6c7c24e-1aaa-4829-9113-992e8be26369)
+
                                                                            The above screenshot is of our apps Splash Screen (Homepage) 
          
 Below Find my Pseudocode used in planning the logic for this application.
@@ -97,6 +98,10 @@ We have chosen a simple interface, used straight forward code and designed our o
                                                               here is an example of some values being logged to console 
                                                               ![Screenshot 2024-06-10 124341](https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/55c39480-af89-4d51-9baf-8e99eaa544cf)
                                                             ![Screenshot 2024-06-10 124451](https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/afcfef45-262f-41c5-827b-e07fe556f287)
+
+                                                        An app logo was added which encapuslates the weather app very well and entices users to open the app often
+                                                        below find image of logo 
+                                                        ![logo](https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/95404ed4-9d39-40ec-b7e9-29a7550a3a0a)
 
 
 Github is used because it allowed me and my team to collaborate on the project together, it allowed me to show them changes i made through commits with messages and to share the project no matter where we are in the world with eachother
