@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainScreen::class.java)
             Log.d("MainActivity", "Starting MainScreen activity with intent: $intent")
             startActivity(intent)
+            Log.d("MainScreen", "Closing current activity")
+            finish()
         }
 
         // Set click listener for the exit button

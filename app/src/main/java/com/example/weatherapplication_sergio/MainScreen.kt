@@ -22,16 +22,17 @@ class MainScreen : AppCompatActivity() {
         val averageTemp = findViewById<TextView>(R.id.averageTemp)
 
 
-        // Arrays of temperatures, days, and weather conditions
+        // Arrays of temperatures
         val tempMax = arrayOf(5, 6, 4, 5, 7, 6, 5)
         val tempMin = arrayOf(17, 18, 16, 19, 20, 18, 17)
-
+        // initializing variables needed for calculations
         var totalTempMax = 0
         var totalTempMin = 0
 
         // Set click listener for the daily temperatures button
         navigateDailyTemperatures.setOnClickListener {
             val intent = Intent(this, DetailedView::class.java)
+            // logging to console for debugging
             Log.d("MainScreen", "Starting DetailedView activity with intent: $intent")
             startActivity(intent)
             Log.d("MainScreen", "Closing current activity")
@@ -40,6 +41,7 @@ class MainScreen : AppCompatActivity() {
 
         // Set click listener for the exit button
         navigateExitApp.setOnClickListener {
+            // logging to console for debugging
             Log.d("MainScreen", "Exiting the app by closing the current activity")
             finish()
         }
