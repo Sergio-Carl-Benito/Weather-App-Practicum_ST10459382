@@ -52,7 +52,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/navigate_MainScreen"
             android:layout_width="wrap_content"
             android:layout_height="63dp"
             android:layout_weight="1"
@@ -66,7 +66,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/navigate_Exit_App"
             android:layout_width="167dp"
             android:layout_height="68dp"
             android:layout_weight="1"
