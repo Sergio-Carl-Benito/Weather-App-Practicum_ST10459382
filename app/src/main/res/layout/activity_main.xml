@@ -38,16 +38,17 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="710dp"
+        android:layout_height="607dp"
         android:adjustViewBounds="true"
         android:background="#FFEB3B"
         android:cropToPadding="true"
         android:scaleType="center"
+        app:srcCompat="@drawable/homelogo"
         tools:srcCompat="@drawable/homelogo" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="125dp"
         android:background="#FFEB3B"
         android:orientation="horizontal">
 
@@ -74,5 +75,9 @@
             android:text="Exit App"
             android:textSize="24sp" />
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="51dp" />
 
 </LinearLayout>

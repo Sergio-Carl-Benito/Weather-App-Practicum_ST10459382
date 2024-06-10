@@ -13,6 +13,9 @@
         android:theme="@style/Theme.WeatherApplicationSergio"
         tools:targetApi="31">
         <activity
+            android:name=".Detailed_view"
+            android:exported="false" />
+        <activity
             android:name=".MainScreen"
             android:exported="false" />
         <activity
