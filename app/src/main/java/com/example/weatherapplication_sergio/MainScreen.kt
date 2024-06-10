@@ -23,13 +23,13 @@ class MainScreen : AppCompatActivity() {
 
 
         // Arrays of temperatures
-        val tempMax = arrayOf(5, 6, 4, 5, 7, 6, 5)
-        val tempMin = arrayOf(17, 18, 16, 19, 20, 18, 17)
+        val tempMax = arrayOf(17, 18, 16, 19, 20, 18, 17)
+        val tempMin = arrayOf(5, 6, 4, 5, 7, 6, 5)
         // initializing variables needed for calculations
         var totalTempMax = 0
         var totalTempMin = 0
 
-        // Set click listener for the daily temperatures button
+        // Set click listener for the daily temperatures button to navigate
         navigateDailyTemperatures.setOnClickListener {
             val intent = Intent(this, DetailedView::class.java)
             // logging to console for debugging
