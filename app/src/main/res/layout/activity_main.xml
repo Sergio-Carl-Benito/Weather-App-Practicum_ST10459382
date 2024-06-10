@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:backgroundTint="#FFEB3B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:gravity="center_horizontal"
+        android:text="Sergio Carl Benito"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFEB3B"
+        android:gravity="center_horizontal"
+        android:text="ST10459382"
+        android:textColor="#1E88E5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="710dp"
+        android:adjustViewBounds="true"
+        android:background="#FFEB3B"
+        android:cropToPadding="true"
+        android:scaleType="center"
+        tools:srcCompat="@drawable/homelogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEB3B"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:text="Main Screen"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="167dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:backgroundTint="#03A9F4"
+            android:text="Exit App"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>
