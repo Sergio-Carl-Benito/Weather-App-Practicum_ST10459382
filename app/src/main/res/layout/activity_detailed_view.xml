@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     android:background="#FFEB3B"
     android:orientation="vertical"
-    tools:context=".DetailedView"/>
+    tools:context=".DetailedView">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Daily Temperatures"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Daily_details"
+        android:layout_width="match_parent"
+        android:layout_height="702dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22dp" />
+
+    <Button
+        android:id="@+id/navigateMainScreen"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="#E91E63"
+        android:text="Back to Home"
+        android:textSize="20sp" />
+
+</LinearLayout>
