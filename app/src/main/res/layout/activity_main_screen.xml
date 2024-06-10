@@ -42,12 +42,21 @@
 
     <Button
         android:id="@+id/navigate_DailyTemperatures"
-        android:layout_width="236dp"
+        android:layout_width="286dp"
         android:layout_height="91dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         android:backgroundTint="#FF0000"
         android:text="Daily Temperatures"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Clearbtn"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Clear "
         android:textSize="24sp" />
 
     <Button

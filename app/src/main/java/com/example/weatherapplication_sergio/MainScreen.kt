@@ -8,9 +8,13 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 
 class MainScreen : AppCompatActivity() {
 
+    // Declare arrays for temps
+    private val tempMax = mutableListOf(17, 18, 16, 19, 20, 18, 17)
+    private val tempMin = mutableListOf(5, 6, 4, 5, 7, 6, 5)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,10 +25,6 @@ class MainScreen : AppCompatActivity() {
         val navigateExitApp = findViewById<Button>(R.id.navigate_Exit_App)
         val averageTemp = findViewById<TextView>(R.id.averageTemp)
 
-
-        // Arrays of temperatures
-        val tempMax = arrayOf(17, 18, 16, 19, 20, 18, 17)
-        val tempMin = arrayOf(5, 6, 4, 5, 7, 6, 5)
         // initializing variables needed for calculations
         var totalTempMax = 0
         var totalTempMin = 0
@@ -62,6 +62,22 @@ class MainScreen : AppCompatActivity() {
         // updating average tempt textview
         averageTemp.setText("$averageTempValue°C")
 
+
+        fun clearData() {
+            // Clear the lists
+            tempMax.clear()
+            tempMin.clear()
+            val cleared = "Data Cleared"
+            // Show a message indicating the data has been cleared
+            Toast.makeText(this, cleared, Toast.LENGTH_SHORT).show()
+            Log.d("MainScreen", cleared)
+        }
+
+        // making a clear array button
+        val Clearbtn: Button = findViewById(R.id.Clearbtn)
+        Clearbtn.setOnClickListener {
+            clearData()
+        }
 
 
     }
