@@ -25,7 +25,7 @@ Below is the pseudocode used in planning the logic for this application.
   - Log action
   - Close the app
 
-<img src="https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/9ea27072-bb6e-4d66-b135-6cc1200948be" width="400" />
+<img src="https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/9ea27072-bb6e-4d66-b135-6cc1200948be"  />
 
 A screenshot of the Splash Screen code is added for reference.
 
@@ -48,7 +48,7 @@ A screenshot of the Splash Screen code is added for reference.
 - If Exit button clicked:
   - Close the app
 
-<img src="https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/728697c3-c356-44d7-829d-9c3ec6a2c472" width="400" />
+<img src="https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/728697c3-c356-44d7-829d-9c3ec6a2c472"  />
 
 A screenshot of the Main screen code is added for reference.
 
@@ -71,7 +71,7 @@ A screenshot of the Main screen code is added for reference.
     - End previous activity
     - Start intent
 
-<img src="https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/f6d46126-bdd2-4f05-9214-a08e121f4513" width="400" />
+<img src="https://github.com/Sergio-Carl-Benito/Weather-App-Practicum_ST10459382/assets/163974756/f6d46126-bdd2-4f05-9214-a08e121f4513"  />
 
 A screenshot of the Detailed View code is added for reference.
 
